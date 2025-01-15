@@ -1,6 +1,6 @@
 :root {
-    --background-color: #333;
-    --text-color: #f4f4f4;
+    --background-color: #000;
+    --text-color: #fff;
 }
 
 body {
@@ -18,10 +18,22 @@ header {
     background-color: var(--background-color);
     color: var(--text-color);
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav a {
     text-decoration: none;
     color: var(--text-color);
     padding: 0 1rem;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+img {
+    transform: rotate(90deg);
 }
